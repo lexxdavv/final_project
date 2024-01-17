@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="media" href="media.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="body">
+        <div class="wrapper">
+            <header>
+                <img src="imgs/backg.jpg" width="800px" height="100px">
+                
+            </header>
+            <nav class="menubar">
+                <ul>
+                    <strong>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="details.html">Details</a></li>
+                </strong>
+                </ul>
+            </nav>
+            
+            <main>
+                <style>
+                    body {
+                      font-family: Arial, sans-serif;
+                      background-color: #f4f4f4;
+                      margin: 0;
+                      padding: 0;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      height: 100vh;
+                    }
+                
+                    form {
+                      background-color: #fff;
+                      padding: 20px;
+                      border-radius: 8px;
+                      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                
+                    label {
+                      display: block;
+                      margin-bottom: 8px;
+                    }
+                
+                    input, textarea {
+                      width: 100%;
+                      padding: 8px;
+                      margin-bottom: 16px;
+                      box-sizing: border-box;
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                    }
+                
+                    button {
+                      background-color: dodgerblue;
+                      color: #fff;
+                      padding: 10px 15px;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                    }
+
+                    #individual, #business {
+                        background-color: #4caf50;
+                        display: inline-block;
+                        width: 48%;
+                        margin-right: 4%;
+                    }
+                   
+                  </style>
+                  <title>Contact</title>
+                </head>
+                <body>
+                <p>Please fill out the information below. Contact me with whatever questions and or concerns you may have, and I will reach back out to you as soon as possible.</p>
+                  <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="name">Lastname:</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="name">Cell:</label>
+                    <input type="text" id="cell" name="cell" required>
+                
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label>Contact:</label>
+                    <input type="radio" id="individual" name="contactType" value="individual" checked>
+                    <label for="individual">Individual</label>
+                
+                    <input type="radio" id="business" name="contactType" value="business">
+                    <label for="business">Business</label>
+                    <br>
+                    <button type="submit">Submit</button>
+                  </form>
+                
+                </body>
+            </main>
+            <aside>
+                <h2>Recent Books</h2>
+                <ul>
+                    <li><a href="#" class="sidebar-link">Harry Potter</a></li>
+                    <li><a href="#" class="sidebar-link">A Midnight Moon</a></li>
+                    <li><a href="#" class="sidebar-link">Hunger Games</a></li>
+                </ul>
+            </aside>
+            
+        </div>
+    </div>
+
+    
+</body>
+<footer>
+    
+
+</footer>
+
+</html>

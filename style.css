@@ -1,0 +1,169 @@
+html {
+    background: linear-gradient(to bottom, aliceblue, steelblue);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: Arial;
+    width: 55em;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 1em;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 1.5em;
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 2px 2px dimgray;
+    color: #c8c8c8;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px dimgray;
+}
+    
+
+.menubar {
+    border-top: 3px solid blue;
+    padding-top: 1px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid #c8c8c8;
+
+}
+
+.menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+
+.menubar li {
+    float: left;
+    
+}
+
+.menubar a {
+    text-decoration: none;
+    line-height: 0px;
+    text-transform: uppercase;
+    color: blue;
+    background-color: #f7f7f7;
+    padding: 0.5em;
+    margin: auto;
+    border-right: 1px solid #c8c8c8;
+}
+
+.menubar a:hover {
+    background-color: blue;
+    color: white;
+}
+
+main {
+    float: left;
+    width: 62.5%;
+    background-color: #cccccc;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+    line-height: 25px;
+}
+
+main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+main h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(141, 140, 140);
+
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    float: right;
+    width: 28%;
+    background-color: #f7f7f7;
+}
+
+aside h2 {
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+aside a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: dimgray;
+    font-size: small;
+    padding: 0.5em;
+}
+
+aside {
+    float: right;
+    width: 28%;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    padding: 1em;
+}
+
+
+aside h2 {
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+aside ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+aside a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+aside a:hover {
+    text-decoration: underline;
+}
+
